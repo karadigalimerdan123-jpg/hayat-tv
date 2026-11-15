@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080d1c">
+<title>HAYAT TV | Her An Hayatın İçinde</title>
+<style>
+:root{--bg:#080d1c;--panel:#111a2e;--panel2:#17233c;--text:#f4f7ff;--muted:#a9b5cc;--red:#f04452;--gold:#ffc85a;--line:#263451;--blue:#5c8dff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 85% 0%,#1c2c51 0,transparent 30%),var(--bg);color:var(--text);font-family:Inter,system-ui,Arial,sans-serif}button,input,textarea,select{font:inherit}button{cursor:pointer;border:0}.wrap{width:min(1160px,92%);margin:auto}.topline{background:#0d1528;border-bottom:1px solid var(--line);font-size:12px;color:var(--muted);padding:8px 0}.topline .wrap{display:flex;justify-content:space-between;gap:12px}.live-dot{display:inline-block;width:8px;height:8px;background:#ff4657;border-radius:50%;margin-right:7px;box-shadow:0 0 12px #ff4657}.header{position:sticky;top:0;z-index:10;background:#080d1ceF;backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:11px;font-weight:950;letter-spacing:1.5px;font-size:24px}.logo{width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,#ff5260,#a91536);display:grid;place-items:center;box-shadow:0 8px 25px #f0445240}.logo svg{width:25px}.navlinks{display:flex;gap:22px;align-items:center}.navlinks a{color:var(--muted);text-decoration:none;font-size:14px;font-weight:650}.navlinks a:hover{color:white}.actions{display:flex;gap:9px}.btn{padding:11px 16px;border-radius:12px;font-weight:800;background:var(--panel2);color:white;border:1px solid var(--line)}.btn.primary{background:linear-gradient(135deg,#ff5967,#cf243e);border:0;box-shadow:0 8px 25px #e52d4833}.btn.small{padding:9px 12px;font-size:13px}.hero{padding:54px 0 34px;display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:stretch}.eyebrow{color:var(--gold);font-weight:850;letter-spacing:2px;font-size:12px;text-transform:uppercase}.hero h1{font-size:clamp(38px,6vw,68px);line-height:1.02;margin:14px 0}.hero h1 span{color:#ff6672}.hero p{max-width:620px;color:var(--muted);font-size:17px;line-height:1.7}.hero-buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.hero-card{border:1px solid #344365;border-radius:24px;min-height:300px;padding:25px;background:linear-gradient(145deg,#1b2b4b,#10182a 65%);position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between}.hero-card:before{content:"";position:absolute;width:270px;height:270px;border-radius:50%;background:#e8345030;filter:blur(5px);right:-80px;top:-90px}.screen{position:relative;border-radius:17px;background:linear-gradient(135deg,#273b63,#111a2e);height:180px;display:grid;place-items:center;border:1px solid #52678f}.play{width:66px;height:66px;border-radius:50%;display:grid;place-items:center;background:#f04452;box-shadow:0 0 0 12px #f0445225}.play:after{content:"";margin-left:5px;border-left:18px solid white;border-top:11px solid transparent;border-bottom:11px solid transparent}.hero-card .meta{position:relative;display:flex;justify-content:space-between;color:var(--muted);font-size:13px;margin-top:17px}.section{padding:35px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:20px}.section-head h2{font-size:27px;margin:5px 0}.section-head p{margin:0;color:var(--muted);font-size:14px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(160deg,#15213a,#10182a);border:1px solid var(--line);border-radius:19px;padding:19px;min-width:0}.program-art{height:120px;border-radius:14px;margin-bottom:15px;display:flex;align-items:end;padding:14px;font-weight:950;font-size:21px;letter-spacing:.4px;background:linear-gradient(135deg,#314d7c,#18243d)}.art-news{background:linear-gradient(135deg,#a72b46,#3c1b38)}.art-morning{background:linear-gradient(135deg,#c07b36,#51304a)}.art-culture{background:linear-gradient(135deg,#236d70,#1c3551)}.art-kids{background:linear-gradient(135deg,#6552a8,#244e79)}.art-talk{background:linear-gradient(135deg,#7c3d70,#282b56)}.card h3{margin:0 0 7px;font-size:18px}.card p{color:var(--muted);font-size:14px;line-height:1.6;margin:0 0 13px}.chips{display:flex;gap:7px;flex-wrap:wrap}.chip{font-size:11px;color:#d6e0f4;border:1px solid #344563;background:#1a2944;border-radius:99px;padding:5px 9px}.schedule{border:1px solid var(--line);border-radius:18px;overflow:hidden}.slot{display:grid;grid-template-columns:90px 1fr auto;gap:16px;padding:16px 18px;background:#111a2e;border-bottom:1px solid var(--line);align-items:center}.slot:last-child{border:0}.slot time{font-weight:900;color:var(--gold)}.slot strong{display:block}.slot small{color:var(--muted)}.slot .tag{font-size:11px;color:#ff9ba4;background:#512331;padding:6px 9px;border-radius:99px}.newsgrid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:15px}.news{padding:20px;border-radius:18px;border:1px solid var(--line);background:var(--panel)}.news .label{font-size:11px;color:var(--gold);font-weight:900;letter-spacing:1px}.news h3{margin:12px 0 8px}.news p{color:var(--muted);font-size:14px;line-height:1.6;margin:0}.notice{background:#171f32;border:1px dashed #586783;border-radius:14px;padding:13px;color:#c6d1e5;font-size:12px;line-height:1.5;margin-top:14px}.footer{border-top:1px solid var(--line);padding:30px 0;color:var(--muted);font-size:13px;margin-top:40px}.footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.clock{position:fixed;right:18px;bottom:18px;background:#101a2d;border:1px solid #3a4d70;padding:10px 13px;border-radius:13px;font-size:13px;font-weight:800;box-shadow:0 8px 28px #0008;z-index:9}.modal{position:fixed;inset:0;background:#030712d9;display:none;place-items:center;padding:18px;z-index:30}.modal.show{display:grid}.dialog{width:min(470px,100%);max-height:90vh;overflow:auto;background:#111a2e;border:1px solid #394b6d;border-radius:22px;padding:24px;box-shadow:0 25px 80px #0009}.dialog h2{margin:0 0 7px}.dialog p{color:var(--muted);font-size:14px;line-height:1.5}.field{display:grid;gap:7px;margin:13px 0}.field label{font-size:13px;color:#c9d4e9;font-weight:700}.field input,.field textarea,.field select{width:100%;background:#0a1222;border:1px solid #344563;border-radius:11px;padding:12px;color:white;outline:none}.field input:focus,.field textarea:focus{border-color:var(--blue)}.dialog-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:17px}.close{float:right;background:#26334c;color:white;border-radius:9px;padding:7px 10px}.hidden{display:none!important}.admin-shell{display:grid;grid-template-columns:210px 1fr;gap:18px}.admin-side{background:#0b1425;border:1px solid var(--line);border-radius:16px;padding:14px}.admin-side button{display:block;width:100%;text-align:left;background:transparent;color:#d8e2f5;padding:11px;border-radius:10px;margin:3px 0}.admin-side button.active,.admin-side button:hover{background:#203252}.admin-main{min-width:0}.admin-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:15px 0}.stat{background:#0b1425;border:1px solid var(--line);border-radius:13px;padding:14px}.stat b{font-size:23px;display:block}.admin-list{display:grid;gap:9px}.admin-row{display:flex;justify-content:space-between;align-items:center;gap:10px;background:#0b1425;border:1px solid var(--line);border-radius:12px;padding:12px}.muted{color:var(--muted)}.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#e7f5eb;color:#123322;padding:12px 18px;border-radius:12px;font-weight:800;z-index:50;display:none}.toast.show{display:block}@media(max-width:800px){.navlinks{display:none}.hero{grid-template-columns:1fr;padding-top:35px}.grid{grid-template-columns:repeat(2,1fr)}.newsgrid{grid-template-columns:1fr}.admin-shell{grid-template-columns:1fr}.admin-side{display:flex;overflow:auto}.admin-side button{white-space:nowrap;width:auto}.slot{grid-template-columns:65px 1fr}.slot .tag{display:none}}@media(max-width:520px){.grid{grid-template-columns:1fr}.brand{font-size:19px}.actions .btn{padding:9px 10px;font-size:12px}.hero h1{font-size:42px}.section-head h2{font-size:23px}.clock{right:10px;bottom:10px}}
+</style>
+</head>
+<body>
+<div class="topline"><div class="wrap"><span><i class="live-dot"></i>HAYAT TV • DİJİTAL YAYIN MERKEZİ</span><span id="topDate">Türkiye saati</span></div></div>
+<header class="header"><div class="wrap nav">
+  <div class="brand" id="brandLogo" title="HAYAT TV"><span class="logo"><svg viewBox="0 0 24 24" fill="white"><path d="M5 4v16l15-8z"/></svg></span>HAYAT <span style="color:#ff6672;margin-left:-8px">TV</span></div>
+  <nav class="navlinks"><a href="#programlar">Programlar</a><a href="#yayin">Yayın Akışı</a><a href="#haberler">Hayat Haber</a><a href="#hakkinda">Hakkımızda</a></nav>
+  <div class="actions"><button class="btn small" onclick="openModal('loginModal')">Giriş Yap</button><button class="btn primary small" onclick="openModal('roleModal')">Kayıt Ol</button></div>
+</div></header>
+<main>
+<section class="wrap hero" id="yayin">
+ <div><div class="eyebrow">Her an hayatın içinde</div><h1>Hayatın ritmi<br><span>HAYAT TV'de.</span></h1><p>Haberden eğlenceye, çocuk kuşağından özel programlara… Günün her saatine eşlik eden yepyeni bir kanal deneyimi.</p>
+ <div class="hero-buttons"><button class="btn primary" id="broadcastButton" onclick="broadcastClick()">▶ Yayına Başla</button><a class="btn" href="#programlar" style="text-decoration:none">Programları Keşfet ↓</a></div>
+ <div class="notice">Bu sayfa şu anda tasarım ve işlev demosudur. Gerçek canlı yayın için yayın kaynağı ve yayın sunucusu bağlanmalıdır.</div>
+ </div>
+ <div class="hero-card"><div><div class="eyebrow">ŞİMDİ HAYAT TV'DE</div><h2 style="margin:8px 0 15px">Yayın ekranı</h2></div><div class="screen"><div class="play"></div></div><div class="meta"><span><i class="live-dot"></i>Yayın alanı hazır</span><span>HAYAT TV</span></div></div>
+</section>
+<section class="wrap section" id="programlar">
+ <div class="section-head"><div><div class="eyebrow">Ekranımızda neler var?</div><h2>Programlar</h2><p>Her programın kendi içeriği ve yayın kimliği var.</p></div></div>
+ <div class="grid" id="programGrid">
+  <article class="card"><div class="program-art art-morning">GÜNAYDIN TÜRKİYE</div><h3>Günaydın Türkiye</h3><p>Güne gündem, hava durumu, kültür-sanat ve günün önerileriyle başla.</p><div class="chips"><span class="chip">Her gün • 08.00</span><span class="chip">Sabah kuşağı</span></div></article>
+  <article class="card"><div class="program-art">ÇALAN SAAT</div><h3>Çalan Saat</h3><p>Müzik, eğlence, ilginç bilgiler ve günün enerjisini yükselten kısa bölümler.</p><div class="chips"><span class="chip">Her gün • 08.30</span><span class="chip">Eğlence</span></div></article>
+  <article class="card"><div class="program-art art-news">HAYAT HABER</div><h3>Hayat Haber</h3><p>Günün önemli gelişmeleri, anlaşılır özetler ve kaynakları belirtilen haber dosyaları.</p><div class="chips"><span class="chip">09.00 / 16.00</span><span class="chip">Haber</span></div></article>
+  <article class="card"><div class="program-art art-culture">HAYATIN İÇİNDEN</div><h3>Hayatın İçinden</h3><p>Bilim, doğa, teknoloji ve günlük yaşamdan merak uyandıran konular.</p><div class="chips"><span class="chip">Hafta içi</span><span class="chip">Belgesel</span></div></article>
+  <article class="card"><div class="program-art art-kids">RENKLİ DÜNYA</div><h3>Renkli Dünya</h3><p>Çocuklara yönelik eğlenceli, öğretici ve güvenli içeriklerden oluşan kuşak.</p><div class="chips"><span class="chip">13.00–16.00</span><span class="chip">Çocuk</span></div></article>
+  <article class="card"><div class="program-art art-talk">AKŞAM SOHBETİ</div><h3>Akşam Sohbeti</h3><p>Günün konusu üzerine sıcak, saygılı ve bilgilendirici sohbetler.</p><div class="chips"><span class="chip">Özel yayın</span><span class="chip">Sohbet</span></div></article>
+ </div>
+</section>
+<section class="wrap section" id="yayin-akisi"><div class="section-head"><div><div class="eyebrow">Bugünün planı</div><h2>Yayın Akışı</h2><p>Yayın saatleri yönetici panelinden düzenlenebilir.</p></div></div>
+ <div class="schedule" id="scheduleList">
+  <div class="slot"><time>08.00</time><div><strong>Günaydın Türkiye</strong><small>Sabah haberleri ve gündem</small></div><span class="tag">SABAH</span></div>
+  <div class="slot"><time>08.30</time><div><strong>Çalan Saat</strong><small>Müzik ve eğlence</small></div><span class="tag">EĞLENCE</span></div>
+  <div class="slot"><time>09.00</time><div><strong>Hayat Haber</strong><small>Günün gelişmeleri</small></div><span class="tag">HABER</span></div>
+  <div class="slot"><time>11.00</time><div><strong>Film Kuşağı</strong><small>İzinli veya telifsiz film seçkisi</small></div><span class="tag">FİLM</span></div>
+  <div class="slot"><time>13.00</time><div><strong>Renkli Dünya</strong><small>Çizgi film ve çocuk programları</small></div><span class="tag">ÇOCUK</span></div>
+  <div class="slot"><time>16.00</time><div><strong>Hayat Haber</strong><small>Günün ikinci haber bülteni</small></div><span class="tag">HABER</span></div>
+  <div class="slot"><time>18.00</time><div><strong>Akşam Filmi</strong><small>Akşam film kuşağı</small></div><span class="tag">FİLM</span></div>
+  <div class="slot"><time>20.00</time><div><strong>Akşam Özel</strong><small>Çizgi filmler ve özel programlar</small></div><span class="tag">ÖZEL</span></div>
+ </div>
+</section>
+<section class="wrap section" id="haberler"><div class="section-head"><div><div class="eyebrow">Gündemden</div><h2>Hayat Haber</h2><p>Bu alan gerçek haberler doğrulanıp kaynakları eklenince yayımlanmalıdır.</p></div></div>
+ <div class="newsgrid" id="newsGrid">
+  <article class="news"><div class="label">ÖRNEK HABER • BİLİM</div><h3>Bilim dünyasından haftanın keşifleri</h3><p>Bu kart örnek tasarımdır. Gerçek haber metni, yayın öncesi güvenilir kaynaklardan doğrulanmalıdır.</p></article>
+  <article class="news"><div class="label">ÖRNEK HABER • TEKNOLOJİ</div><h3>Teknoloji gündemi</h3><p>Güncel gelişmelerin kısa ve anlaşılır özeti için hazırlanmış örnek alan.</p></article>
+  <article class="news"><div class="label">ÖRNEK HABER • DOĞA</div><h3>Doğadan güzel haberler</h3><p>Doğa ve çevre konularına ayrılmış örnek haber kartı.</p></article>
+ </div>
+</section>
+<section class="wrap section" id="hakkinda"><div class="card"><div class="eyebrow">HAYAT TV HAKKINDA</div><h2>Her gün yeni bir şey keşfet.</h2><p style="color:var(--muted);line-height:1.7;max-width:800px">HAYAT TV; haber, eğlence, kültür, çocuk ve özel programları tek çatı altında buluşturmayı hedefleyen dijital kanal projesidir. İçerikler yayınlanmadan önce kaynak, kullanım izni ve yaş uygunluğu açısından kontrol edilmelidir.</p></div></section>
+</main>
+<footer class="footer"><div class="wrap"><span>© 2026 HAYAT TV • Dijital kanal projesi</span><span>İletişim • Duyurular • Gizlilik</span></div></footer>
+<div class="clock" id="clock">--:--:--</div>
+<!-- Login -->
+<div class="modal" id="loginModal"><div class="dialog"><button class="close" onclick="closeModal('loginModal')">✕</button><h2>Tekrar hoş geldin</h2><p>Giriş sistemi henüz etkin değil. Gerçek hesap bilgilerini girme.</p><div class="field"><label>E-posta</label><input id="loginEmail" type="email" placeholder="ornek@mail.com"></div><div class="field"><label>Şifre</label><input id="loginPass" type="password" placeholder="Şifren"></div><div class="dialog-actions"><button class="btn primary" onclick="loginUser()">Giriş Yap</button><button class="btn" onclick="closeModal('loginModal')">Vazgeç</button></div><p id="loginMsg"></p></div></div>
+<!-- Registration role choice -->
+<div class="modal" id="roleModal"><div class="dialog"><button class="close" onclick="closeModal('roleModal')">✕</button><div class="eyebrow">HAYAT TV HESABI</div><h2>Yönetici misin?</h2><p>Nasıl devam etmek istediğini seç.</p><div class="dialog-actions"><button class="btn primary" onclick="chooseAdminRole()">Evet, yöneticiyim</button><button class="btn" onclick="chooseViewerRole()">Hayır, izleyiciyim</button></div><p class="muted">Yönetici seçeneği, yönetici şifresi ekranına yönlendirir.</p></div></div>
+<!-- Register -->
+<div class="modal" id="registerModal"><div class="dialog"><button class="close" onclick="closeModal('registerModal')">✕</button><h2>HAYAT TV'ye katıl</h2><p>Üyelik sistemi henüz etkin değil. Bu demo formuna gerçek şifre girme.</p><div class="field"><label>Adın</label><input id="regName" placeholder="Ad Soyad"></div><div class="field"><label>E-posta</label><input id="regEmail" type="email" placeholder="ornek@mail.com"></div><div class="field"><label>Şifre</label><input id="regPass" type="password" placeholder="En az 6 karakter"></div><div class="dialog-actions"><button class="btn primary" onclick="registerUser()">Kayıt Ol</button><button class="btn" onclick="closeModal('registerModal')">Vazgeç</button></div><p id="regMsg"></p></div></div>
+<!-- Admin -->
+<div class="modal" id="adminLoginModal"><div class="dialog"><button class="close" onclick="closeModal('adminLoginModal')">✕</button><div class="eyebrow">YETKİLİ ERİŞİMİ</div><h2>Yönetici Girişi</h2><p>Bu alan yalnızca kanal yöneticileri içindir.</p><div class="field"><label>Yönetici şifresi</label><input id="adminPass" type="password" placeholder="Şifreyi gir" autocomplete="off"></div><div class="dialog-actions"><button class="btn primary" onclick="adminLogin()">Panele Gir</button><button class="btn" onclick="closeModal('adminLoginModal')">Vazgeç</button></div><p id="adminMsg"></p></div></div>
+<div class="modal" id="adminModal"><div class="dialog" style="width:min(900px,100%)"><button class="close" onclick="adminLogout()">Çıkış</button><div class="eyebrow">HAYAT TV KONTROL MERKEZİ</div><h2>Yönetici Paneli</h2><p>Programları, yayın akışını ve duyuruları buradan yönet.</p>
+ <div class="admin-shell"><aside class="admin-side"><button class="active" onclick="showAdminTab('overview',this)">Genel Bakış</button><button onclick="showAdminTab('programs',this)">Programları Yönet</button><button onclick="showAdminTab('schedule',this)">Yayın Akışı</button><button onclick="showAdminTab('news',this)">Haber / Duyuru</button></aside>
+ <div class="admin-main">
+ <div id="tab-overview"><div class="admin-stats"><div class="stat"><span class="muted">Program</span><b id="programCount">6</b></div><div class="stat"><span class="muted">Yayın kaydı</span><b id="scheduleCount">8</b></div><div class="stat"><span class="muted">Duyuru</span><b id="newsCount">3</b></div></div><div class="notice">Bu yönetim paneli ön izleme sürümüdür. Eklediğin değişiklikler bu tarayıcıda saklanır; tüm cihazlara ve ziyaretçilere aktarılması için sunucu/veritabanı bağlantısı gerekir.</div></div>
+ <div id="tab-programs" class="hidden"><h3>Yeni program ekle</h3><div class="field"><label>Program adı</label><input id="newProgramName" placeholder="Örn. Teknoloji Saati"></div><div class="field"><label>Kısa açıklama</label><textarea id="newProgramDesc" rows="2" placeholder="Programın konusu..."></textarea></div><button class="btn primary" onclick="addProgram()">Programı Ekle</button><h3>Program listesi</h3><div class="admin-list" id="adminProgramList"></div></div>
+ <div id="tab-schedule" class="hidden"><h3>Yayın akışına ekle</h3><div class="field"><label>Saat</label><input id="newSlotTime" placeholder="Örn. 21.00"></div><div class="field"><label>Program</label><input id="newSlotTitle" placeholder="Program adı"></div><div class="field"><label>Açıklama</label><input id="newSlotDesc" placeholder="Kısa açıklama"></div><button class="btn primary" onclick="addSlot()">Yayın saatini ekle</button><h3>Mevcut yayın akışı</h3><div class="admin-list" id="adminScheduleList"></div></div>
+ <div id="tab-news" class="hidden"><h3>Haber / duyuru ekle</h3><div class="field"><label>Başlık</label><input id="newNewsTitle" placeholder="Duyuru başlığı"></div><div class="field"><label>Kategori</label><input id="newNewsCat" placeholder="DUYURU"></div><div class="field"><label>Metin</label><textarea id="newNewsText" rows="3" placeholder="Duyuru metni"></textarea></div><button class="btn primary" onclick="addNews()">Yayımla</button><h3>Yayımlananlar</h3><div class="admin-list" id="adminNewsList"></div></div>
+ </div></div></div></div>
+<div class="toast" id="toast"></div>
+<script>
+const $=id=>document.getElementById(id);
+const defaults={
+ programs:[
+  {name:"Günaydın Türkiye",desc:"Güne gündem, hava durumu, kültür-sanat ve günün önerileriyle başla.",time:"08.00",kind:"Sabah kuşağı"},
+  {name:"Çalan Saat",desc:"Müzik, eğlence, ilginç bilgiler ve günün enerjisini yükselten kısa bölümler.",time:"08.30",kind:"Eğlence"},
+  {name:"Hayat Haber",desc:"Günün önemli gelişmeleri ve kaynakları belirtilen haber dosyaları.",time:"09.00 / 16.00",kind:"Haber"},
+  {name:"Hayatın İçinden",desc:"Bilim, doğa, teknoloji ve günlük yaşamdan merak uyandıran konular.",time:"Hafta içi",kind:"Belgesel"},
+  {name:"Renkli Dünya",desc:"Çocuklara yönelik eğlenceli ve öğretici içerikler.",time:"13.00–16.00",kind:"Çocuk"},
+  {name:"Akşam Sohbeti",desc:"Günün konusu üzerine bilgilendirici sohbetler.",time:"Özel yayın",kind:"Sohbet"}],
+ schedule:[["08.00","Günaydın Türkiye","Sabah haberleri ve gündem"],["08.30","Çalan Saat","Müzik ve eğlence"],["09.00","Hayat Haber","Günün gelişmeleri"],["11.00","Film Kuşağı","İzinli veya telifsiz film seçkisi"],["13.00","Renkli Dünya","Çizgi film ve çocuk programları"],["16.00","Hayat Haber","Günün ikinci haber bülteni"],["18.00","Akşam Filmi","Akşam film kuşağı"],["20.00","Akşam Özel","Çizgi filmler ve özel programlar"]],
+ news:[["Bilim dünyasından haftanın keşifleri","ÖRNEK HABER • BİLİM","Bu kart örnek tasarımdır. Gerçek haberler kaynakları doğrulandıktan sonra yayımlanmalıdır."],["Teknoloji gündemi","ÖRNEK HABER • TEKNOLOJİ","Güncel gelişmelerin kısa ve anlaşılır özeti için örnek alan."],["Doğadan güzel haberler","ÖRNEK HABER • DOĞA","Doğa ve çevre konularına ayrılmış örnek haber kartı."]]
+};
+function getData(k){try{return JSON.parse(localStorage.getItem("hayat_"+k))||structuredClone(defaults[k])}catch(e){return structuredClone(defaults[k])}}
+function setData(k,v){localStorage.setItem("hayat_"+k,JSON.stringify(v));}
+let programs=getData("programs"),schedule=getData("schedule"),news=getData("news");
+function openModal(id){$(id).classList.add("show")}function closeModal(id){$(id).classList.remove("show")}
+function toast(t){$("toast").textContent=t;$("toast").classList.add("show");setTimeout(()=>$("toast").classList.remove("show"),2300)}
+function renderAll(){
+ $("programGrid").innerHTML=programs.map((p,i)=>`<article class="card"><div class="program-art ${["art-morning","art-news","art-culture","art-kids","art-talk"][i%5]}">${esc(p.name.toUpperCase())}</div><h3>${esc(p.name)}</h3><p>${esc(p.desc)}</p><div class="chips"><span class="chip">${esc(p.time||"Yeni program")}</span><span class="chip">${esc(p.kind||"Program")}</span></div></article>`).join("");
+ $("scheduleList").innerHTML=schedule.map(s=>`<div class="slot"><time>${esc(s[0])}</time><div><strong>${esc(s[1])}</strong><small>${esc(s[2])}</small></div><span class="tag">HAYAT TV</span></div>`).join("");
+ $("newsGrid").innerHTML=news.map(n=>`<article class="news"><div class="label">${esc(n[1])}</div><h3>${esc(n[0])}</h3><p>${esc(n[2])}</p></article>`).join("");
+ $("programCount").textContent=programs.length;$("scheduleCount").textContent=schedule.length;$("newsCount").textContent=news.length;
+ $("adminProgramList").innerHTML=programs.map((p,i)=>`<div class="admin-row"><span><b>${esc(p.name)}</b><br><small class="muted">${esc(p.time||"")}</small></span><button class="btn small" onclick="deleteProgram(${i})">Sil</button></div>`).join("")||"Henüz program yok.";
+ $("adminScheduleList").innerHTML=schedule.map((s,i)=>`<div class="admin-row"><span><b>${esc(s[0])} • ${esc(s[1])}</b><br><small class="muted">${esc(s[2])}</small></span><button class="btn small" onclick="deleteSlot(${i})">Sil</button></div>`).join("")||"Yayın akışı boş.";
+ $("adminNewsList").innerHTML=news.map((n,i)=>`<div class="admin-row"><span><b>${esc(n[0])}</b><br><small class="muted">${esc(n[1])}</small></span><button class="btn small" onclick="deleteNews(${i})">Sil</button></div>`).join("")||"Henüz duyuru yok.";
+}
+function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function addProgram(){let n=$("newProgramName").value.trim(),d=$("newProgramDesc").value.trim();if(!n||!d)return toast("Program adı ve açıklama gerekli.");programs.push({name:n,desc:d,time:"Yeni",kind:"Program"});setData("programs",programs);$("newProgramName").value="";$("newProgramDesc").value="";renderAll();toast("Program eklendi.");}
+function deleteProgram(i){programs.splice(i,1);setData("programs",programs);renderAll();toast("Program silindi.");}
+function addSlot(){let t=$("newSlotTime").value.trim(),n=$("newSlotTitle").value.trim(),d=$("newSlotDesc").value.trim();if(!t||!n)return toast("Saat ve program adı gerekli.");schedule.push([t,n,d]);schedule.sort((a,b)=>a[0].localeCompare(b[0],"tr"));setData("schedule",schedule);$("newSlotTime").value=$("newSlotTitle").value=$("newSlotDesc").value="";renderAll();toast("Yayın akışı güncellendi.");}
+function deleteSlot(i){schedule.splice(i,1);setData("schedule",schedule);renderAll();toast("Yayın kaydı silindi.");}
+function addNews(){let t=$("newNewsTitle").value.trim(),c=$("newNewsCat").value.trim()||"DUYURU",d=$("newNewsText").value.trim();if(!t||!d)return toast("Başlık ve metin gerekli.");news.unshift([t,c,d]);setData("news",news);$("newNewsTitle").value=$("newNewsCat").value=$("newNewsText").value="";renderAll();toast("Duyuru eklendi.");}
+function deleteNews(i){news.splice(i,1);setData("news",news);renderAll();toast("Duyuru silindi.");}
+function showAdminTab(tab,btn){["overview","programs","schedule","news"].forEach(x=>$("tab-"+x).classList.toggle("hidden",x!==tab));document.querySelectorAll(".admin-side button").forEach(b=>b.classList.remove("active"));btn.classList.add("active");}
+function chooseAdminRole(){
+ closeModal("roleModal");
+ $("adminPass").value="";
+ $("adminMsg").textContent="";
+ openModal("adminLoginModal");
+}
+function chooseViewerRole(){
+ closeModal("roleModal");
+ openModal("registerModal");
+}
+function registerUser(){
+ $("regMsg").textContent="Üyelik sistemi henüz güvenli sunucuya bağlanmadı. Gerçek e-posta veya şifre girmeyin.";
+}
+function loginUser(){
+ $("loginMsg").textContent="Giriş sistemi henüz güvenli sunucuya bağlanmadı. Bu demo sürümünde hesap girişi kullanılamaz.";
+}
+let clickCount=0,clickTimer=null;
+function broadcastClick(){clickCount++;clearTimeout(clickTimer);clickTimer=setTimeout(()=>clickCount=0,4000);if(clickCount>=10){clickCount=0;openModal("adminLoginModal");$("adminPass").value="";$("adminMsg").textContent="";}else if(clickCount===1){toast("Yayın ekranı demo modunda. Yönetici erişimi için aynı alana 10 kez tıklanır.");}}
+function adminLogin(){
+ $("adminMsg").textContent="Yönetici girişi güvenli sunucu bağlantısı tamamlanana kadar kapalıdır. Yönetici şifresi bu web sayfasında saklanmaz.";
+}
+function adminLogout(){closeModal("adminModal");toast("Yönetici oturumu kapatıldı.");}
+function tick(){let d=new Date();$("clock").textContent=d.toLocaleTimeString("tr-TR");$("topDate").textContent=d.toLocaleDateString("tr-TR",{weekday:"long",day:"numeric",month:"long",year:"numeric"})+" • "+d.toLocaleTimeString("tr-TR",{hour:"2-digit",minute:"2-digit"});}
+renderAll();tick();setInterval(tick,1000);
+</script>
+</body></html>
